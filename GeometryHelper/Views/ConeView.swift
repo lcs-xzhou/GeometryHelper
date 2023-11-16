@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct ConeView: View {
+    
+    // MARK: Stored properties
+    @State var currentCone = Cone(radius1: 6.0, slant: 5.0, height: 4.0)
+    
+    // MARK: Computed properties
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack {
+                Text("Cone")
+                    .font(.largeTitle)
+                Spacer()
+                    .frame(height: 250)
+            }
+            VStack {
+                Image("Cone")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 230)
+            }
+        }
+
     }
 }
 
