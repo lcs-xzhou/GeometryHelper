@@ -15,6 +15,8 @@
 		2D5EFED32B0661FC00BB369D /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED22B0661FC00BB369D /* StructureView.swift */; };
 		2D5EFED52B06657500BB369D /* ConeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED42B06657500BB369D /* ConeView.swift */; };
 		2D5EFED72B06657F00BB369D /* Cone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED62B06657F00BB369D /* Cone.swift */; };
+		2D5EFEDB2B069C2400BB369D /* ConeValueStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFEDA2B069C2400BB369D /* ConeValueStructure.swift */; };
+		2D5EFEDD2B06B9E800BB369D /* ConeSquareStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFEDC2B06B9E800BB369D /* ConeSquareStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		2D5EFED22B0661FC00BB369D /* StructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureView.swift; sourceTree = "<group>"; };
 		2D5EFED42B06657500BB369D /* ConeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeView.swift; sourceTree = "<group>"; };
 		2D5EFED62B06657F00BB369D /* Cone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cone.swift; sourceTree = "<group>"; };
+		2D5EFEDA2B069C2400BB369D /* ConeValueStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeValueStructure.swift; sourceTree = "<group>"; };
+		2D5EFEDC2B06B9E800BB369D /* ConeSquareStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeSquareStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				2D5EFECE2B0657EE00BB369D /* CircleView.swift */,
 				2D5EFED42B06657500BB369D /* ConeView.swift */,
+				2D5EFEDC2B06B9E800BB369D /* ConeSquareStructure.swift */,
+				2D5EFEDA2B069C2400BB369D /* ConeValueStructure.swift */,
 				2D5EFED22B0661FC00BB369D /* StructureView.swift */,
 			);
 			path = Views;
@@ -168,7 +174,9 @@
 				2D5EFED72B06657F00BB369D /* Cone.swift in Sources */,
 				2D5EFECF2B0657EE00BB369D /* CircleView.swift in Sources */,
 				2D5EFEBF2B06569600BB369D /* GeometryHelperApp.swift in Sources */,
+				2D5EFEDD2B06B9E800BB369D /* ConeSquareStructure.swift in Sources */,
 				2D5EFED32B0661FC00BB369D /* StructureView.swift in Sources */,
+				2D5EFEDB2B069C2400BB369D /* ConeValueStructure.swift in Sources */,
 				2D5EFED52B06657500BB369D /* ConeView.swift in Sources */,
 				2D5EFED12B065ACA00BB369D /* Circle.swift in Sources */,
 			);
