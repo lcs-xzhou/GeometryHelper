@@ -15,7 +15,6 @@
 		2D5EFED32B0661FC00BB369D /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED22B0661FC00BB369D /* StructureView.swift */; };
 		2D5EFED52B06657500BB369D /* ConeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED42B06657500BB369D /* ConeView.swift */; };
 		2D5EFED72B06657F00BB369D /* Cone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED62B06657F00BB369D /* Cone.swift */; };
-		2D5EFED92B06993B00BB369D /* ConeSliderStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED82B06993B00BB369D /* ConeSliderStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 		2D5EFED22B0661FC00BB369D /* StructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureView.swift; sourceTree = "<group>"; };
 		2D5EFED42B06657500BB369D /* ConeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeView.swift; sourceTree = "<group>"; };
 		2D5EFED62B06657F00BB369D /* Cone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cone.swift; sourceTree = "<group>"; };
-		2D5EFED82B06993B00BB369D /* ConeSliderStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeSliderStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 			children = (
 				2D5EFECE2B0657EE00BB369D /* CircleView.swift */,
 				2D5EFED42B06657500BB369D /* ConeView.swift */,
-				2D5EFED82B06993B00BB369D /* ConeSliderStructure.swift */,
 				2D5EFED22B0661FC00BB369D /* StructureView.swift */,
 			);
 			path = Views;
@@ -171,7 +168,6 @@
 				2D5EFED72B06657F00BB369D /* Cone.swift in Sources */,
 				2D5EFECF2B0657EE00BB369D /* CircleView.swift in Sources */,
 				2D5EFEBF2B06569600BB369D /* GeometryHelperApp.swift in Sources */,
-				2D5EFED92B06993B00BB369D /* ConeSliderStructure.swift in Sources */,
 				2D5EFED32B0661FC00BB369D /* StructureView.swift in Sources */,
 				2D5EFED52B06657500BB369D /* ConeView.swift in Sources */,
 				2D5EFED12B065ACA00BB369D /* Circle.swift in Sources */,

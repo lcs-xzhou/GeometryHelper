@@ -14,24 +14,45 @@ struct ConeView: View {
     
     // MARK: Computed properties
     var body: some View {
-        HStack {
-            VStack {
-                Text("Cone")
-                    .font(.largeTitle)
-                Spacer()
-                    .frame(height: 250)
+        VStack {
+            HStack {
+                VStack {
+                    Text("Cone")
+                        .font(.largeTitle)
+                    Spacer()
+                        .frame(height: 250)
+                }
+                VStack {
+                    Image("Cone")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(height: 230)
+                }
             }
-            VStack {
-                Image("Cone")
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 230)
+            .padding()
+            
+            HStack {
+                Text("0")
+                Slider(value: $currentCone.radius1, in: 1...100)
+                Text("100")
             }
+            .padding(.horizontal)
+            
+            HStack {
+                Text("0")
+                Slider(value: $currentCone.height, in: 1...100)
+                Text("100")
+            }
+            .padding(.horizontal)
+            
+            HStack {
+                Text("0")
+                Slider(value: $currentCone.slant, in: 1...100)
+                Text("100")
+            }
+            .padding(.horizontal)
+            
         }
-        Slider(value: $currentCone.radius1, in: 1...100)
-        Slider(value: $currentCone.height, in: 1...100)
-        Slider(value: $currentCone.slant, in: 1...100)
-
     }
 }
 
