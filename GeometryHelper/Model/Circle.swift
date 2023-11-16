@@ -25,3 +25,7 @@ struct Circle {
         return Double.pi * radius * radius
     }
 }
+
+// Create an instance
+var someCircle = Circle(radius: 10.0)
+
