@@ -14,11 +14,28 @@ struct CircleView: View {
     
     // MARK: Computed properties
     var body: some View {
-        NavigationStack {
+        VStack {
             
             HStack {
-                Spacer()
+                
+                VStack {
+                    Text("Circle")
+                        .font(.largeTitle)
+                        .fontWeight(.regular)
+                    Spacer()
+                        .frame(height: 230)
+                }
+                .padding()
+                
+                HStack(alignment: .top) {
+                    Spacer()
+                    Image("Circle")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 270)
+                }
             }
+            .padding(.horizontal)
             
             VStack {
                 
@@ -59,7 +76,7 @@ struct CircleView: View {
                 .padding(.horizontal)
             }
             .padding()
-            .navigationTitle("Circle")
+            Spacer()
         }
     }
 }
