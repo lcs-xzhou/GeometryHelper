@@ -12,6 +12,9 @@
 		2D5EFEC62B06569800BB369D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5EFEC52B06569800BB369D /* Preview Assets.xcassets */; };
 		2D5EFECF2B0657EE00BB369D /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFECE2B0657EE00BB369D /* CircleView.swift */; };
 		2D5EFED12B065ACA00BB369D /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED02B065ACA00BB369D /* Circle.swift */; };
+		2D5EFED32B0661FC00BB369D /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED22B0661FC00BB369D /* StructureView.swift */; };
+		2D5EFED52B06657500BB369D /* ConeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED42B06657500BB369D /* ConeView.swift */; };
+		2D5EFED72B06657F00BB369D /* Cone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EFED62B06657F00BB369D /* Cone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		2D5EFEC52B06569800BB369D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D5EFECE2B0657EE00BB369D /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		2D5EFED02B065ACA00BB369D /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		2D5EFED22B0661FC00BB369D /* StructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureView.swift; sourceTree = "<group>"; };
+		2D5EFED42B06657500BB369D /* ConeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConeView.swift; sourceTree = "<group>"; };
+		2D5EFED62B06657F00BB369D /* Cone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				2D5EFECE2B0657EE00BB369D /* CircleView.swift */,
+				2D5EFED42B06657500BB369D /* ConeView.swift */,
+				2D5EFED22B0661FC00BB369D /* StructureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				2D5EFED02B065ACA00BB369D /* Circle.swift */,
+				2D5EFED62B06657F00BB369D /* Cone.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5EFED72B06657F00BB369D /* Cone.swift in Sources */,
 				2D5EFECF2B0657EE00BB369D /* CircleView.swift in Sources */,
 				2D5EFEBF2B06569600BB369D /* GeometryHelperApp.swift in Sources */,
+				2D5EFED32B0661FC00BB369D /* StructureView.swift in Sources */,
+				2D5EFED52B06657500BB369D /* ConeView.swift in Sources */,
 				2D5EFED12B065ACA00BB369D /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
