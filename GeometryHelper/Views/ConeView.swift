@@ -28,6 +28,9 @@ struct ConeView: View {
                     .frame(height: 230)
             }
         }
+        Slider(value: $currentCone.radius1, in: 1...100)
+        Slider(value: $currentCone.height, in: 1...100)
+        Slider(value: $currentCone.slant, in: 1...100)
 
     }
 }
